@@ -13,7 +13,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 发布到 https://<USERNAME>.github.io
-git push -f git@github.com:syLi95/syLi95.github.io.git master
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+git push -f git@github.com:syLi95/lsy-vuepress-blog.git master:gh-pages
 
 cd -
