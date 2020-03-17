@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/lsy-vuepress-blog/',
   title: 'lsy-blog',
   description: 'record',
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
