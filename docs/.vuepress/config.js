@@ -6,11 +6,11 @@ module.exports = {
   markdown: {
     lineNumbers: true, // 代码块显示行号
   },
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@alias': 'path/to/some/dir',
-      },
-    },
-  },
+  // configureWebpack: {
+  //   resolve: {
+  //     alias: {
+  //       '@alias': 'path/to/some/dir',
+  //     },
+  //   },
+  // },
 };
