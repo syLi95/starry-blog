@@ -24,34 +24,29 @@ npm run build
 
 ### 部署
 
-```bash
-npm run d
-```
+GitHub Pages and Travis CI: 无需 build 直接将代码提交至 master 分支
 
 ### 开发设置
 
-网站内部的链接，将会被转换成 < router-link > 用于 SPA 导航
-
 1. 全局异步组件 (.vuepress/component/*.vue) 统一使用大驼峰命名
-2. Travis CI 持续集成 无需 build 直接将代码提交至 master 分支
 
-### 目录结构
+### 根目录结构 docs/.vuepress/
 
-docs/.vuepress/ 根目录用于存放全局的配置、组件、静态资源等
+存放全局配置/组件/静态资源等
 
-components: 该目录中的 Vue 组件将会被自动注册为全局组件
+components: *.vue 全局组件
 
-theme: 用于存放本地主题
+theme: 本地主题
 
-styles: 用于存放样式相关的文件
-styles/index.styl: 将会被自动应用的全局样式文件，会生成在最终的 CSS 文件结尾，具有比默认样式更高的优先级
-styles/palette.styl: 用于重写默认颜色常量，或者设置新的 stylus 颜色常量
+styles: 样式文件
+styles/index.styl: 全局样式文件，比默认样式优先级更高
+styles/palette.styl: 重写默认颜色常量，或设置新的 stylus 颜色常量
 
 public: 静态资源目录
 
-config.js: 配置文件的入口文件，也可以是 YML 或 toml
+config.js: 配置文件
 
-enhanceApp.js: 客户端应用的增强。
+enhanceApp.js: 客户端应用增强
 
 ### vuepress官网参考
 
