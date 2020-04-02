@@ -32,8 +32,8 @@ npm run d
 
 网站内部的链接，将会被转换成 < router-link > 用于 SPA 导航
 
-1. 每个文件夹下 README.md 或 index.md 文件会被自动编译为 index.html 对应的链接将被视为 /
-2. .vuepress/components 下 *.vue 文件 会被自动注册为 全局异步组件 (组件名称需包含连接符或是大驼峰)
+1. 全局异步组件 (.vuepress/component/*.vue) 统一使用大驼峰命名
+2. Travis CI 持续集成 无需 build 直接将代码提交至 master 分支
 
 ### 目录结构
 
