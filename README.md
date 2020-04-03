@@ -30,9 +30,9 @@ GitHub Pages and Travis CI: 无需 build 直接将代码提交至 master 分支
 
 1. 全局异步组件 (.vuepress/component/*.vue) 统一使用大驼峰命名
 
-### 根目录结构 docs/.vuepress/
+### 目录结构
 
-存放全局配置/组件/静态资源等
+docs/.vuepress/: 存放全局配置、组件、静态资源等
 
 components: *.vue 全局组件
 
