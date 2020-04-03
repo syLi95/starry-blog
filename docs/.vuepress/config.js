@@ -26,10 +26,10 @@ module.exports = {
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页 ！',
   },
-  configureWebpack: {
-    resolve: {
-      alias: { '@alias': '' },
-    },
-  },
+  // configureWebpack: {
+  //   resolve: {
+  //     alias: { '@alias': '' },
+  //   },
+  // },
   plugins: pluginConf,
 };
