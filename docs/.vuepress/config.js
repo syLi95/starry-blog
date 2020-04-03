@@ -8,7 +8,6 @@ module.exports = {
   title: 'lsy-blog',
   description: 'record',
   head: headConf,
-  dest: './dist',
   markdown: {
     lineNumbers: true, // 代码块显示行号
   },
