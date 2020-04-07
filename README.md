@@ -49,7 +49,7 @@ lsy-vuepress-blog
 |  |     |   └sidebar.js
 |  |     ├─components                   // *.vue 全局组件
 |  ├─web-summary                        // web总结
-|  ├─README.md                          // 主页
+|  ├─README.md                          // 首页
 ├─.travis.yml                           // travis
 ├─deploy.sh                             // deploy
 ├─README.md
