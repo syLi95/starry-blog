@@ -2,6 +2,11 @@ const pluginConf = require('./config/plugin');
 const sidebarConf = require('./config/sidebar');
 const navConf = require('./config/nav');
 const headConf = require('./config/head');
+const path = require('path');
+
+function resolve(dir) {
+  return path.join(__dirname, dir);
+}
 
 module.exports = {
   base: '/lsy-vuepress-blog/',
@@ -26,10 +31,10 @@ module.exports = {
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页 ！',
   },
-  // configureWebpack: {
-  //   resolve: {
-  //     alias: { '@alias': '' },
-  //   },
-  // },
+  configureWebpack: {
+    resolve: {
+      alias: { '@': resolve('src') },
+    },
+  },
   plugins: pluginConf,
 };
