@@ -9,7 +9,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  base: '/lsy-vuepress-blog/',
+  base: '/starry-blog/',
   title: 'lsy-blog',
   description: 'record',
   head: headConf,

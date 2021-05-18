@@ -14,7 +14,7 @@ npm run dev
 
 #### 启动页面
 
-<http://localhost:8080/lsy-vuepress-blog/>
+<http://localhost:8080/starry-blog/>
 
 ### 编译
 
@@ -33,7 +33,7 @@ GitHub Pages and Travis CI
 ### 目录结构
 
 ```sh
-lsy-vuepress-blog
+starry-blog
 ├─docs
 |  ├─.vuepress                          // 存放全局配置、组件、静态资源等
 |  |     ├─config.js                    // 配置文件
@@ -58,7 +58,7 @@ lsy-vuepress-blog
 
 ### blog
 
-<https://syli95.github.io/lsy-vuepress-blog/>
+<https://syli95.github.io/starry-blog/>
 
 ### vuepress官网
 
