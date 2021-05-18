@@ -10,7 +10,7 @@ function resolve(dir) {
 
 module.exports = {
   base: '/starry-blog/',
-  title: 'lsy-blog',
+  title: 'starry-blog',
   description: 'record',
   head: headConf,
   markdown: {
