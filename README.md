@@ -28,7 +28,7 @@ GitHub Pages and Travis CI
 
 ### 开发设置
 
-1. 全局异步组件 (.vuepress/component/*.vue) 统一使用大驼峰命名
+1. 全局异步组件 (.vuepress/component/*.vue)
 
 ### 目录结构
 
